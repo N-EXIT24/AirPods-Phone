@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background: #131313;
+}
+
+.header__nav{
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+
+.header__box{
+    display: flex;
+    padding: 6px 0;
+    justify-content: space-between;
+}
+
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header__list-link{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.header__list-link-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header__content{
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/Header\ \(1\).jpg) no-repeat center /cover;
+}
+
+.header__content-title{
+    font-family: "pro";
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 75%;
+    color: #fff;
+}
+
+
+.header__content-btn{
+    border-radius: 10px;
+    padding: 13px 14px;
+    background:white ;
+    margin-top: 38px;
+}
+
+.header__content-btn:hover{
+    background: #373737;
+    
+}
+
+.header__content-text{
+    font-family: "monm";
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #171718;
+    margin-right: 10px;
+}
+
+
+.main__box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main__box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main__box-text-2{
+    font-family: "monm";
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    max-width: 540px;
+    width: 100%;
+    margin-left: 87px;
+}
+
+.main__box-text{
+    font-family: "monm";
+    max-width: 538px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.main__box-text-3{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+    max-width: 333px;
+    width: 100%;
+}
+
+.main__box-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.main__box-text-31{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    max-width: 333px;
+    width: 100%;
+}
+
+.box__img::before{
+    content:" ";
+    display: block;
+    width: 70px;
+    height: 30px;
+    background: gray;
+    clip-path: inset(83% 0 12% 0);
+}
+
+.box__img::after{
+    content:" ";
+    display: block;
+    width: 70px;
+    height: 30px;
+    background: gray;
+    clip-path: inset(83% 0 12% 0);
+}
+
+.box__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 13px;
+}
+
+.iphone__box{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 55px;
+}
+
+.item__box-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    background: #fff;
+    padding: 15px 47px;
+}
+
+.item__box-title{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.item__box-text{
+    font-family: "monr";
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.item__box-btn{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    background: black;
+    padding: 7px 57px;
+}
+
+.footer{
+    box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.25);
+    background: #282828;
+}
+
+.footer__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 81px 0;
+}
+
+.footer__list{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__list-link{
+    font-family: "monb";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    color: #fff;
+}
+
+.footer__list-2{
+    display: flex;
+    gap: 30px;
+}
+   
+@media(max-width:1200px){
+    
+    .main__box-1{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .main__box-2{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .main__box-3{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main__box-text-3,
+    .main__box-text-31{
+        text-align: center;
+    }
+
+    .box__img::before,
+    .box__img::after{
+        display: none;
+    }
+
+    .iphone__box{
+        flex-wrap: wrap;
+    }
+
+    .main__box-text-2,
+    .main__box-text{
+        margin: 0px;
+    }
+
+    .header__content-title{
+        font-size: 40px;
+    }
+
+    .header__content {
+        height: 400px;
+        
+    }
+}
+
+@media(max-width: 650px){
+    .header__box{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .header-list{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer__box{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .main__box-img{
+        max-width: 400px;
+        width: 100%;
+    }
+}
